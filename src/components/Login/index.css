@@ -1,0 +1,78 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #272727;
+  background-image: url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg');
+  background-size: cover;
+}
+.form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  display: flex;
+  min-height: 400px;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  height: 100px;
+  margin-bottom: 20px;
+  width: 200px;
+}
+.form-container label {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.button {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button:hover {
+  background-color: #45a049;
+}
+.paragraph {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.note {
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.toggle-form {
+  color: #007bff;
+  cursor: pointer; /* Changes cursor to a hand symbol */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition effect */
+}
+
+.toggle-form:hover {
+  color: #0056b3; /* Darker shade on hover */
+}
